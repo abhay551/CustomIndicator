@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--for custom indicator-->
+    <declare-styleable name="CustomIndicatorView">
+        <attr name="indicator_bg_color" format="color" />
+        <attr name="indicator_filled_src" format="integer" />
+        <attr name="indicator_unfilled_src" format="integer" />
+        <attr name="indicator_width" format="dimension" />
+        <attr name="indicator_height" format="dimension" />
+        <attr name="indicator_margin" format="dimension" />
+        <attr name="indicator_orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

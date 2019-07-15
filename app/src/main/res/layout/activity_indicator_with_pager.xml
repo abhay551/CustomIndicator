@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.abhay.customindicator.CustomIndicatorView
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        app:indicator_bg_color="@android:color/white"
+        app:indicator_filled_src="@drawable/filled_indicator"
+        app:indicator_unfilled_src="@drawable/unfilled_indicator"
+        app:indicator_orientation="horizontal"
+        app:indicator_width="10dp"
+        app:indicator_height="10dp"
+        app:indicator_margin="5dp"/>
+</RelativeLayout>
