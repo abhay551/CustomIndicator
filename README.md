@@ -6,6 +6,27 @@ Supports viewpager and recyclerview.
 
 ![Alt Text](https://github.com/abhay551/CustomIndicator/blob/master/app/src/main/res/drawable/screenshot.gif)
 
+## GRADLE
+
+1) Add it in your root build.gradle at the end of repositories:
+
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+2) Add the dependency
+
+```
+dependencies {
+	        implementation 'com.github.abhay551:CustomIndicator:VERSION-NUMBER'
+	}
+```
+
 ## USAGE
 
 ### WITH VIEW PAGER
